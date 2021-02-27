@@ -110,8 +110,8 @@ public class MajorMojo extends BaseMojo {
       }
     }
 
-    responses.add(execCall(getAnnouncePayload(), createAnnounceHttpRequest()));
     responses.add(execCall(getPayload(), createDefaultHttpRequest()));
+    responses.add(execCall(getAnnouncePayload(), createAnnounceHttpRequest()));
 
     return responses.stream()
         .filter(resp -> {

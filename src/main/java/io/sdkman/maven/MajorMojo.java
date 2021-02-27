@@ -52,7 +52,7 @@ public class MajorMojo extends BaseMojo {
   protected String url;
 
   /**
-   * Platform to downloable URL mappings.
+   * Platform to downlodable URL mappings.
    * Supported platforms are:
    * <ul>
    * <li>MAC_OSX</li>

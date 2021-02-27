@@ -1,5 +1,5 @@
 = Maven Plugin for SDKMAN!
-:project-owner:      aalmiray
+:project-owner:      sdkman
 :project-name:       sdkman-vendor-maven-plugin
 :project-groupId:    io.sdkman
 :project-artifactId: sdkman-maven-plugin

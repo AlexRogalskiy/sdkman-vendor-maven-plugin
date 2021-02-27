@@ -11,7 +11,7 @@ import java.util.Map;
 import static io.sdkman.maven.infra.ApiEndpoints.ANNOUNCE_ENDPOINT;
 
 /**
- * Posts an announcment
+ * Posts an announcement
  *
  * @author <a href="mailto:julien@julienviet.com">Julien Viet</a>
  */

@@ -48,7 +48,7 @@ Usage from command line:
 
 [source,subs="attributes,verbatim"]
 ----
-mvn -e io.sdkman:sdkman-maven-plugin:{project-version}:release \ 
+mvn -e io.sdkman:sdkman-maven-plugin:{project-version}:release \
     -Dsdkman.api.host=${api_host} \
     -Dsdkman.consumer.key=${my_key} \
     -Dsdkman.consumer.token=${my_token} \
@@ -87,7 +87,7 @@ Usage from command line:
 
 [source,subs="attributes,verbatim"]
 ----
-mvn -e io.sdkman:sdkman-maven-plugin:{project-version}:default \ 
+mvn -e io.sdkman:sdkman-maven-plugin:{project-version}:default \
     -Dsdkman.api.host=${api_host} \
     -Dsdkman.consumer.key=${my_key} \
     -Dsdkman.consumer.token=${my_token} \
@@ -126,7 +126,7 @@ Usage from command line:
 
 [source,subs="attributes,verbatim"]
 ----
-mvn -e io.sdkman:sdkman-maven-plugin:{project-version}:announce \ 
+mvn -e io.sdkman:sdkman-maven-plugin:{project-version}:announce \
     -Dsdkman.api.host=${api_host} \
     -Dsdkman.consumer.key=${my_key} \
     -Dsdkman.consumer.token=${my_token} \
